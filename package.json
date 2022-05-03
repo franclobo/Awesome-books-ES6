@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/franclobo/Awesome-books-ES6/issues"
   },
-  "homepage": "https://github.com/franclobo/Awesome-books-ES6#readme"
+  "homepage": "https://github.com/franclobo/Awesome-books-ES6#readme",
+  "dependencies": {
+    "full-icu": "^1.4.0",
+    "luxon": "^2.3.2"
+  }
 }
