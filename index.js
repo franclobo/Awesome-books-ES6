@@ -1,7 +1,7 @@
-import Libro from "./JavaScript/list.js";
-import { booksBtn, addBookbtn, contactBtn, containerBooks, books, addNew, contact, titulo, autor, addBtn, dataBooks } from "./JavaScript/list.js";
+import Libro from "./modules/list.js";
+import { booksBtn, addBookbtn, contactBtn, containerBooks, books, addNew, contact, titulo, autor, addBtn, dataBooks } from "./modules/list.js";
 
-import { DateTime } from "./JavaScript/luxon.js";
+import { DateTime } from "./modules/luxon.js";
 
 
 
