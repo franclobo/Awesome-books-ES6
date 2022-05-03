@@ -1,16 +1,5 @@
 import Libro from "./JavaScript/list.js";
-import { dataBooks } from "./JavaScript/list.js";
-const booksBtn = document.getElementById('booksBtn');
-const addBookbtn = document.getElementById('addbookBtn');
-const contactBtn = document.getElementById('contactBtn');
-const containerBooks = document.getElementById('container');
-const books = document.getElementById('books');
-const addNew = document.getElementById('addbook');
-const contact = document.getElementById('contact');
-const titulo = document.getElementById('titulo');
-const autor = document.getElementById('autor');
-const addBtn = document.getElementById('btn');
-
+import { booksBtn, addBookbtn, contactBtn, containerBooks, books, addNew, contact, titulo, autor, addBtn, dataBooks } from "./JavaScript/list.js";
 
 import { DateTime } from "./JavaScript/luxon.js";
 
