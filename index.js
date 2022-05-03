@@ -1,13 +1,11 @@
-import Libro from "./modules/list.js";
-import { booksBtn, addBookbtn, contactBtn, containerBooks, books, addNew, contact, titulo, autor, addBtn, dataBooks } from "./modules/list.js";
 
-import { DateTime } from "./modules/luxon.js";
-
-
+import { books, addNew, contact, titulo, autor} from "./modules/variables.js"
+import { containerBooks } from "./modules/list.js"
+import Libro from "./modules/list.js"
+import startTime from "./modules/clock.js";
 
 window.onload = startTime();
-
-
+let dataBooks = JSON.parse(localStorage.getItem('book')) || [];
 
 const printList = () => {
   const libro = new Libro();
@@ -29,9 +27,14 @@ const printList = () => {
       libro.deleteBook(i);
     });
   }
-};
+}
 
 printList();
+
+const addBtn = document.getElementById('btn');
+const booksBtn = document.getElementById('booksBtn');
+const addBookbtn = document.getElementById('addbookBtn');
+const contactBtn = document.getElementById('contactBtn');
 
 addBtn.addEventListener('click', () => {
   const libro = new Libro(titulo.value, autor.value);
