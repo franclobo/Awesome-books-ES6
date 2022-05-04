@@ -1,7 +1,7 @@
-import { books, addNew, contact, titulo, autor} from "./modules/variables.js"
-import { containerBooks } from "./modules/list.js"
-import Libro from "./modules/list.js"
-import startTime from "./modules/clock.js";
+import { books, addNew, contact, titulo, autor  } from './modules/variables.js';
+import { containerBooks } from './modules/list.js';
+import Libro from './modules/list.js';
+import startTime from './modules/clock.js';
 
 window.onload = startTime();
 let dataBooks = JSON.parse(localStorage.getItem('book')) || [];
