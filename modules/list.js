@@ -17,4 +17,3 @@ export class Libro {
     localStorage.setItem('book', JSON.stringify(dataBooks));
   }
 }
-
