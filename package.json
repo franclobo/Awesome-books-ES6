@@ -1,0 +1,24 @@
+{
+  "name": "awesome-books-es6",
+  "version": "1.0.0",
+  "description": "Based on the construction of my first porject with JavaScript objects for Microverse Curriculum Awesome books, I will organize the files in modules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franclobo/Awesome-books-ES6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franclobo/Awesome-books-ES6/issues"
+  },
+  "homepage": "https://github.com/franclobo/Awesome-books-ES6#readme",
+  "dependencies": {
+    "full-icu": "^1.4.0",
+    "luxon": "^2.3.2"
+  }
+}
