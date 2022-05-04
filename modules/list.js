@@ -1,6 +1,6 @@
 export const containerBooks = document.getElementById('container');
 const dataBooks = JSON.parse(localStorage.getItem('book')) || [];
-export default class Libro {
+class Libro {
   constructor(title, author) {
     this.dataBooks = [title, author];
     this.title = title;
@@ -17,3 +17,5 @@ export default class Libro {
     localStorage.setItem('book', JSON.stringify(dataBooks));
   }
 }
+
+export default Libro;
