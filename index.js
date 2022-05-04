@@ -1,10 +1,10 @@
 import startTime from './modules/clock.js';
 import {
-  books, addNew, contact, titulo, autor }
-  from './modules/variables.js';
+  books, addNew, contact, titulo, autor
+} from './modules/variables.js';
 import {
-  containerBooks, Libro }
-  from './modules/list.js';
+  containerBooks, Libro
+} from './modules/list.js';
 
 window.onload = startTime();
 let dataBooks = JSON.parse(localStorage.getItem('book')) || [];
