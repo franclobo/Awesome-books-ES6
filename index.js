@@ -1,4 +1,3 @@
-
 import { books, addNew, contact, titulo, autor} from "./modules/variables.js"
 import { containerBooks } from "./modules/list.js"
 import Libro from "./modules/list.js"
